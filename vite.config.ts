@@ -6,9 +6,12 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
+    // Relative asset paths keep the build portable across static hosts such as
+    // GitHub Pages project sites (https://<user>.github.io/<repo>/).
+    base: './',
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, '.'),
+        '@': path.resolve(import.meta.dirname, '.'),
       },
     },
     server: {
