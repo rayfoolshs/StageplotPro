@@ -6,6 +6,8 @@ StagePlot Studio runs entirely in the browser. There is no backend, no account, 
 
 **Live app:** <https://rayfoolshs.github.io/StageplotPro/>
 
+![StagePlot Studio stage plot workspace](docs/screenshot.png)
+
 ---
 
 ## What it does
