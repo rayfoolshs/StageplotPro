@@ -1,0 +1,6 @@
+{
+  "name": "StagePlot Studio",
+  "description": "Precision stage plot designer, input patch list builder, and technical rider generator for bands, ensembles, and live sound engineers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
